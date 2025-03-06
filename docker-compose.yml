@@ -1,0 +1,6 @@
+services:
+  ecommerceapp.presentation:
+    image: ${DOCKER_REGISTRY-}ecommerceapppresentation
+    build:
+      context: .
+      dockerfile: EcommerceApp.Presentation/Dockerfile
